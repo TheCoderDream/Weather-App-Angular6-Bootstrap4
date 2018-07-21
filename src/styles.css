@@ -1,0 +1,67 @@
+.navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+.navbar-brand {
+  float:none;
+}
+.profile-input {
+  margin-bottom: 10px;
+}
+.profile-btn {
+  margin-bottom: 15px;
+}
+.profile {
+  position: relative;
+  background-color: #b9d5e8;
+  padding: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.profile h4 {
+  margin: 0;
+  paddin: 0;
+}
+.profile p {
+  margin: 0;
+  padding: 0;
+}
+.profile .delete {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+.profile .delete:hover {
+  color: red;
+}
+.profile:hover {
+  background-color: #3498db;
+}
+.weather-list {
+  margin: 20px auto;
+  width: 40%;
+}
+.weather-search {
+  margin: 20px auto;
+  width: 40%;
+}
+.weather-search label {
+  font-weight: bold;
+  margin-right: 20px;
+}
+.weather-search input {
+  padding: 3px 5px;
+  outline: none;
+  width: 75%;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .weather-list {
+    width: 80%;
+  }
+}
