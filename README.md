@@ -1,4 +1,4 @@
-# AngularModule5
+# Weather-App-Angular6-Bootstrap4
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 
